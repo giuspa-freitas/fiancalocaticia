@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro Fiança: Tudo o que você precisa saber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DESCOMPLICANDO O SEGURO FIANÇA</h1>
+            <p>Tudo o que você precisa saber para alugar seu imóvel com segurança e tranquilidade</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Conseguiu aprovação para alugar, mas não tem fiador?</h2>
+            <p>O Seguro Fiança é a solução prática e acessível para garantir seu aluguel sem burocracia!</p>
+            <button class="cta-button">Solicitar Cotação</button>
+        </div>
+    </section>
+
+    <section class="what-is">
+        <div class="container">
+            <h2>O que é Seguro Fiança?</h2>
+            <p>O Seguro Fiança é um produto que substitui o fiador tradicional em contratos de locação, funcionando como uma garantia para o proprietário do imóvel.</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Para Locatários</h3>
+                    <ul>
+                        <li>Não precisa de fiador físico</li>
+                        <li>Processo mais rápido e simples</li>
+                        <li>Cobertura de até 36 meses de aluguel</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>Para Proprietários</h3>
+                    <ul>
+                        <li>Garantia de recebimento dos aluguéis</li>
+                        <li>Redução de inadimplência</li>
+                        <li>Processo de sinistro ágil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <h2>Como funciona o Seguro Fiança?</h2>
+            <ol class="steps">
+                <li>
+                    <strong>Solicitação:</strong> O locatário contrata o seguro junto à seguradora.
+                </li>
+                <li>
+                    <strong>Análise:</strong> A seguradora avalia o perfil do locatário.
+                </li>
+                <li>
+                    <strong>Emissão:</strong> Após aprovação, é emitida a apólice de garantia.
+                </li>
+                <li>
+                    <strong>Proteção:</strong> Em caso de inadimplência, a seguradora paga ao proprietário.
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <h2>Vantagens do Seguro Fiança</h2>
+            
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <h3>Para quem aluga</h3>
+                    <ul>
+                        <li>Não precisa convencer parentes a serem fiadores</li>
+                        <li>Processo mais rápido que caução tradicional</li>
+                        <li>Possibilidade de parcelamento do prêmio</li>
+                    </ul>
+                </div>
+                
+                <div class="advantage-card">
+                    <h3>Vs. Fiador Tradicional</h3>
+                    <ul>
+                        <li>Não exige imóvel livre de dívidas</li>
+                        <li>Não precisa de certidões negativas</li>
+                        <li>Sem risco para patrimônio de terceiros</li>
+                    </ul>
+                </div>
+                
+                <div class="advantage-card">
+                    <h3>Vs. Caução</h3>
+                    <ul>
+                        <li>Não bloqueia seu dinheiro</li>
+                        <li>Valor menor que 3-12 meses de caução</li>
+                        <li>Sem preocupação com devolução</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <h2>Quanto custa um Seguro Fiança?</h2>
+            <p>O valor do prêmio (custo do seguro) varia conforme:</p>
+            <ul class="price-factors">
+                <li>Valor do aluguel</li>
+                <li>Prazo do contrato</li>
+                <li>Perfil do locatário</li>
+            </ul>
+            <p class="price-average"><strong>Em média:</strong> 1,5% a 3% do valor anual do aluguel</p>
+            <button class="cta-button">Solicitar Cotação Personalizada</button>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2>Perguntas Frequentes</h2>
+            
+            <div class="faq-item">
+                <h3>Quem pode contratar?</h3>
+                <p>Qualquer pessoa física maior de 18 anos que precise alugar um imóvel residencial ou comercial.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Quais documentos são necessários?</h3>
+                <p>RG, CPF, comprovante de renda e comprovante de residência.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Quanto tempo leva para aprovar?</h3>
+                <p>Em média 2-3 dias úteis após a apresentação de todos os documentos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para alugar seu imóvel sem burocracia?</h2>
+            <p>Obtenha seu Seguro Fiança em poucos passos!</p>
+            <button class="cta-button">Quero meu Seguro Fiança</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Seguro Fiança - Todos os direitos reservados</p>
+            <p>Esta página é informativa e não substitui consulta com especialistas</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

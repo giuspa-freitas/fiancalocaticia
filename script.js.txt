@@ -1,0 +1,41 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Animação para os cards
+    const cards = document.querySelectorAll('.benefit-card, .advantage-card, .faq-item');
+    
+    cards.forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    });
+    
+    setTimeout(() => {
+        cards.forEach((card, index) => {
+            setTimeout(() => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            }, 100 * index);
+        });
+    }, 300);
+    
+    // Eventos para os botões CTA
+    const buttons = document.querySelectorAll('.cta-button');
+    
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            alert('Formulário de cotação será aberto! Em uma implementação real, isso abriria um modal ou redirecionaria para um formulário.');
+        });
+    });
+    
+    // FAQ interativo (opcional)
+    const faqItems = document.querySelectorAll('.faq-item h3');
+    
+    faqItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const answer = this.nextElementSibling;
+            answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+        });
+        
+        // Esconde as respostas inicialmente
+        item.nextElementSibling.style.display = 'none';
+    });
+});
